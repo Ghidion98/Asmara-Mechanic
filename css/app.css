@@ -1,0 +1,159 @@
+*{
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+body {
+   background: #333;
+   font-size: 2em;
+}
+nav {
+   background: #4f4d4d;
+   z-index: 3;
+   position: fixed;
+   width: 100%;
+   height: 50px;
+   text-align: right;
+   top: 55px;
+   border-top: solid 1px rgb(15, 3, 3);
+   border-bottom: solid 1px rgb(15, 3, 3);
+}
+#logo {
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   position: absolute;
+   top: -15px;
+   left: 60px;
+}
+a{
+   color: #fff;
+   font-size: 1.1em;
+   margin: 10px;
+   text-decoration: none;
+   padding-right: 20px;
+}
+ a:hover {
+   color: #f00;
+   text-decoration: underline;
+}
+header {
+   background: url(../assets/images/BK.png)no-repeat;
+   width: 100%;
+   height: 500px;
+   background-size: cover;
+   object-fit: cover;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   
+
+}
+header > h1 {
+   color: #e75ba8;
+   text-align: center;
+   padding-top: 190px;
+   font-size: 3em;
+}
+
+main {
+   width: 100%;
+   height: 1800px;
+}
+section {
+   width: 100%;
+   min-height: 600px;
+   padding: 50px 100px;
+}
+#about-us {
+   background: #eee;
+   border: .5px solid #333;
+   background-size: 100%;
+}
+#about-us > img {
+   width: 200px;
+   height: 200px;
+   border-radius: 10%;
+   padding-top: 5px;
+}
+#about-us > p {
+   font-size: 1.5em;
+   color: #000;
+}
+#sampleImages {
+   background: #eee;
+   background-size: 100%;
+   border: .1px solid #333;
+   text-align: center;
+   
+}
+
+.thumb {
+   border-radius: 16px;
+   box-sizing: border-box;
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   margin: 15px;
+   border: solid 4px rgb(218, 97, 179);
+   
+}
+.thumb:hover{
+   transform: scale(1.1);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#services {
+   background: #eee;
+   border: .5px solid #333;
+}
+.heading {
+   background: #666;
+   width: 100%;
+   color: #eee;
+   padding: 10px;
+
+}
+#contact {
+   width: 100%;
+   background: #eee;
+   background-size: cover;
+   font-size: 1.4em;
+   text-align: center;
+   padding: 40px;
+}
+#contact-form{
+   background: #312f2f;
+   width: 40%;
+   margin: auto;
+   padding: 30px;
+   border-radius: 20px;
+   border: 3px solid #f0f;
+}
+input {
+   font-size: 1.4em;
+   border-radius: 8px;
+   width: 50%;
+   background: #bbaded;
+   padding: 15px 30px;
+   margin-top: 10px;
+}
+button[type='submit']{
+   margin-top: 40px;
+   padding: 15px 35px;
+   background: rgb(145, 224, 180);
+   font-size: 1em;
+   width: 50%;
+}
+button[type='submit']:hover {
+   background: rgb(52, 16, 208);
+   cursor: alias;
+}
+footer {
+   background: #333;
+   width: 1005;
+   height: 100px;
+   text-align: center;
+   font-size: 1.6em;
+   color: #fff;
+   padding-top: 9px;
+}
